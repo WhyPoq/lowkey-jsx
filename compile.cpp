@@ -246,7 +246,7 @@ private:
             res += prop.key + ": ";
             if (prop.key == "ref")
             {
-                res += "[\"" + prop.value + "\", els]";
+                res += "[\"" + prop.value + "\", refs]";
             }
             else
             {
